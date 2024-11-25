@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RMUOH4AFn-J63V9aVuIR" name="leveldb -- 数据结构">
-    <mxGraphModel dx="1257" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="none" math="0" shadow="1">
+    <mxGraphModel dx="3596" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -282,17 +282,71 @@
         <mxCell id="fHHS76MxVtSuCa_m7F3a-40" value="Footer Block" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="39.739999999999995" y="1840" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fHHS76MxVtSuCa_m7F3a-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1600" width="20" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="fHHS76MxVtSuCa_m7F3a-42" value="数据部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="1645" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fHHS76MxVtSuCa_m7F3a-43" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1720" width="20" height="160" as="geometry" />
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-49" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="fHHS76MxVtSuCa_m7F3a-38" target="fHHS76MxVtSuCa_m7F3a-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25.40000000000022" y="1740" as="sourcePoint" />
+            <mxPoint x="25.39666666666652" y="1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="1780" />
+              <mxPoint x="-10" y="1740" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="fHHS76MxVtSuCa_m7F3a-44" value="管理数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1785" width="70" height="30" as="geometry" />
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MetaIndex Block，主要记录了&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Filter Block的信息：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. filter block在sst中的offset和size&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. filter的类型。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1715" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-53" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="fHHS76MxVtSuCa_m7F3a-39" target="fHHS76MxVtSuCa_m7F3a-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1790" as="sourcePoint" />
+            <mxPoint x="50" y="1750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="1820" />
+              <mxPoint x="-30" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-55" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="fHHS76MxVtSuCa_m7F3a-39" target="fHHS76MxVtSuCa_m7F3a-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1830" as="sourcePoint" />
+            <mxPoint x="50" y="1710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="1820" />
+              <mxPoint x="-40" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-56" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="fHHS76MxVtSuCa_m7F3a-39" target="fHHS76MxVtSuCa_m7F3a-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1840" as="sourcePoint" />
+            <mxPoint x="50" y="1670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="1820" />
+              <mxPoint x="-40" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-57" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;curveFitting=1;jiggle=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="fHHS76MxVtSuCa_m7F3a-40" target="fHHS76MxVtSuCa_m7F3a-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1790" as="sourcePoint" />
+            <mxPoint x="50" y="1750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="1860" />
+              <mxPoint x="540" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-59" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="fHHS76MxVtSuCa_m7F3a-40" target="fHHS76MxVtSuCa_m7F3a-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1870" as="sourcePoint" />
+            <mxPoint x="50" y="1750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="1860" />
+              <mxPoint x="510" y="1820" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

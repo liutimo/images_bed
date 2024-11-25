@@ -159,6 +159,30 @@
         <mxCell id="DLg96OP5S4Lw544XIM8s-18" value="···" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="480" y="920" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-1" value="type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2520" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-4" value="crc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200.38" y="2520" width="159.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-7" value="压缩类型&lt;div&gt;1 Byte&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150.26" y="2458" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-11" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-12" value="校验码&lt;div&gt;固定4Byte&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240.19" y="2458" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-14" value="Block数据&lt;div&gt;变长&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2458" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="368" y="2284" width="25" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-16" value="Block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="2458" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

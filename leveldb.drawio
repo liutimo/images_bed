@@ -159,17 +159,8 @@
         <mxCell id="DLg96OP5S4Lw544XIM8s-18" value="···" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="480" y="920" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0g-_CZhXDQv2B_igkewh-1" value="type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40.260000000000005" y="1286" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0g-_CZhXDQv2B_igkewh-4" value="crc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80.64" y="1286" width="159.62" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="0g-_CZhXDQv2B_igkewh-7" value="压缩类型&lt;div&gt;1 Byte&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="30.519999999999996" y="1224" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0g-_CZhXDQv2B_igkewh-11" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240.26" y="1286" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0g-_CZhXDQv2B_igkewh-12" value="校验码&lt;div&gt;固定4Byte&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120.45" y="1224" width="80" height="40" as="geometry" />
@@ -182,6 +173,78 @@
         </mxCell>
         <mxCell id="0g-_CZhXDQv2B_igkewh-16" value="Block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="235.76" y="1224" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-17" value="" style="group;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40.260000000000005" y="1282" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-1" value="type" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-17">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-4" value="crc" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-17">
+          <mxGeometry x="40.379999999999995" width="159.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-11" value="data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-17">
+          <mxGeometry x="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-18" value="" style="group;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40.00000000000001" y="1321" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-19" value="type" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-18">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-20" value="crc" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-18">
+          <mxGeometry x="40.379999999999995" width="159.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-21" value="data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-18">
+          <mxGeometry x="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-30" value="" style="group;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="1440" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-31" value="type" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-30">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-32" value="crc" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-30">
+          <mxGeometry x="40.379999999999995" width="159.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-33" value="data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-30">
+          <mxGeometry x="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-26" value="" style="group;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="1400" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-27" value="type" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-26">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-28" value="crc" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-26">
+          <mxGeometry x="40.379999999999995" width="159.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-29" value="data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-26">
+          <mxGeometry x="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-36" value="" style="group;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="1360" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-23" value="type" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-36">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-24" value="crc" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-36">
+          <mxGeometry x="40.379999999999995" width="159.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-25" value="data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-36">
+          <mxGeometry x="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-37" value="" style="group;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="1480" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-38" value="type" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-37">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-39" value="crc" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-37">
+          <mxGeometry x="40.379999999999995" width="159.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0g-_CZhXDQv2B_igkewh-40" value="data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="0g-_CZhXDQv2B_igkewh-37">
+          <mxGeometry x="200" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -282,9 +282,6 @@
         <mxCell id="fHHS76MxVtSuCa_m7F3a-40" value="Footer Block" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="39.739999999999995" y="1840" width="440" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fHHS76MxVtSuCa_m7F3a-42" value="数据部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1645" width="70" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fHHS76MxVtSuCa_m7F3a-49" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="fHHS76MxVtSuCa_m7F3a-38" target="fHHS76MxVtSuCa_m7F3a-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="25.40000000000022" y="1740" as="sourcePoint" />
@@ -347,6 +344,9 @@
               <mxPoint x="510" y="1820" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fHHS76MxVtSuCa_m7F3a-60" value="如果没有设置过滤器，该filter block就会为空，&lt;div&gt;但是，Meta Index block 不会为空，其只会记录空的 kv&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1720" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

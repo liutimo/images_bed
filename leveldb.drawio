@@ -765,20 +765,20 @@
         <mxCell id="9wpae0CJoYGuldMD7FDW-2" value="RGW_B" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="520" y="1680" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9wpae0CJoYGuldMD7FDW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;" edge="1" parent="1" source="9wpae0CJoYGuldMD7FDW-4" target="9wpae0CJoYGuldMD7FDW-1">
+        <mxCell id="9wpae0CJoYGuldMD7FDW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;fillColor=#d5e8d4;strokeColor=#009900;" edge="1" parent="1" source="9wpae0CJoYGuldMD7FDW-4" target="9wpae0CJoYGuldMD7FDW-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="1890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9wpae0CJoYGuldMD7FDW-24" value="lock ok" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9wpae0CJoYGuldMD7FDW-23">
+        <mxCell id="9wpae0CJoYGuldMD7FDW-24" value="&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;lock ok&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9wpae0CJoYGuldMD7FDW-23">
           <mxGeometry x="-0.2366" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9wpae0CJoYGuldMD7FDW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;" edge="1" parent="1" source="9wpae0CJoYGuldMD7FDW-4" target="9wpae0CJoYGuldMD7FDW-11">
+        <mxCell id="9wpae0CJoYGuldMD7FDW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;strokeColor=#FF3333;" edge="1" parent="1" source="9wpae0CJoYGuldMD7FDW-4" target="9wpae0CJoYGuldMD7FDW-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wpae0CJoYGuldMD7FDW-26" value="lock failed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9wpae0CJoYGuldMD7FDW-25">
+        <mxCell id="9wpae0CJoYGuldMD7FDW-26" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;lock failed&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9wpae0CJoYGuldMD7FDW-25">
           <mxGeometry x="-0.2157" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -797,14 +797,14 @@
         <mxCell id="9wpae0CJoYGuldMD7FDW-11" value="RGW_C" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="520" y="1920" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9wpae0CJoYGuldMD7FDW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;" edge="1" parent="1" source="9wpae0CJoYGuldMD7FDW-4" target="9wpae0CJoYGuldMD7FDW-2">
+        <mxCell id="9wpae0CJoYGuldMD7FDW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;strokeColor=#FF3333;" edge="1" parent="1" source="9wpae0CJoYGuldMD7FDW-4" target="9wpae0CJoYGuldMD7FDW-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="1686" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9wpae0CJoYGuldMD7FDW-28" value="lock failed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9wpae0CJoYGuldMD7FDW-27">
+        <mxCell id="9wpae0CJoYGuldMD7FDW-28" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;lock failed&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9wpae0CJoYGuldMD7FDW-27">
           <mxGeometry x="0.2255" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

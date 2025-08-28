@@ -1365,8 +1365,10 @@
         <mxCell id="Yl_G70vyMX9KIbw86LtW-2" value="mds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="360" y="80" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yl_G70vyMX9KIbw86LtW-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.871;entryY=-0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Yl_G70vyMX9KIbw86LtW-3" target="Yl_G70vyMX9KIbw86LtW-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Yl_G70vyMX9KIbw86LtW-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yl_G70vyMX9KIbw86LtW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="241" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Yl_G70vyMX9KIbw86LtW-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yl_G70vyMX9KIbw86LtW-3" target="Yl_G70vyMX9KIbw86LtW-7">
           <mxGeometry relative="1" as="geometry" />
@@ -1380,10 +1382,10 @@
         <mxCell id="Yl_G70vyMX9KIbw86LtW-5" value="librados" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="160" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yl_G70vyMX9KIbw86LtW-6" value="librados" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Yl_G70vyMX9KIbw86LtW-6" value="osdc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yl_G70vyMX9KIbw86LtW-7" value="libceph-common" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Yl_G70vyMX9KIbw86LtW-7" value="libceph-common(monc)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="400" y="240" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
